@@ -19,7 +19,7 @@ import java.util.Date;
 public class MainActivity extends ActionBarActivity {
 
     public static final int NOTIFICATION_ID = 1234;
-    
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,6 +29,8 @@ public class MainActivity extends ActionBarActivity {
         showNotification();
     }
 
+
+    //Added Notifications for Homework- July 24th
     private void showNotification()
     {
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("hh:mm:ss a");
